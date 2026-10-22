@@ -1,0 +1,1 @@
+DLL Futronic не включены в Git. Скопируйте сюда DLL x86 из официального Futronic ftrScanApiEx_v4.5.zip: ftrScanAPI.dll, ftrMathAPI.dll, ftrWSQ.dll, LiveFinger2.dll. Загрузка: https://www.futronic-tech.com/download.php . Проверенная версия ftrScanAPI.dll: 13.12.5231.2079. Все зависимости должны совпадать по разрядности. Затем соберите приложение по README.md.

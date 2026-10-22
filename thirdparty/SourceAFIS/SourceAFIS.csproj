@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><TargetFramework>net10.0</TargetFramework><Version>3.14.0</Version><AssemblyName>SourceAFIS.Raw</AssemblyName><Nullable>disable</Nullable><ImplicitUsings>disable</ImplicitUsings></PropertyGroup><ItemGroup><PackageReference Include="Dahomey.Cbor" Version="1.16.1" /></ItemGroup></Project>

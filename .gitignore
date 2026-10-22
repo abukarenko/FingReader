@@ -1,0 +1,21 @@
+bin/
+obj/
+publish-x86/
+native/*.dll
+*.zip
+*.raw
+*.bmp
+*.png
+!assets/setup.png
+*.wsq
+*.ftr
+settings.json
+сканы палца/
+VERIFICATION.md
+work/*
+!work/tests/
+work/tests/bin/
+work/tests/obj/
+.vs/
+*.user
+*.suo
