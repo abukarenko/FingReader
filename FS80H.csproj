@@ -4,7 +4,7 @@
     <UseWindowsForms>true</UseWindowsForms><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable>
     <PlatformTarget Condition="'$(PlatformTarget)' == ''">x64</PlatformTarget>
   </PropertyGroup>
-  <ItemGroup><Compile Remove="work\**\*.cs;thirdparty\**\*.cs" /><None Include="native\**\*" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+  <ItemGroup><Compile Remove="work\**\*.cs;thirdparty\**\*.cs;samples\**\*.cs;src\**\*.cs;tests\**\*.cs;outputs\**\*.cs" /><None Include="native\**\*" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
   <ItemGroup><EmbeddedResource Include="assets\setup.png" /></ItemGroup>
   <ItemGroup>
   </ItemGroup>

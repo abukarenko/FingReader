@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.22000.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.22000.0</SupportedOSPlatformVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <Version>1.0.0</Version>
+    <PackageId>FingReader.WindowsHello</PackageId>
+    <Description>Windows Hello verification for .NET desktop apps with HWND ownership and bounded foreground handoff.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
+    <PathMap>$(MSBuildProjectDirectory)=/_/FingReader.WindowsHello</PathMap>
+  </PropertyGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="WindowsHello.Tests" />
+    <None Include="../../docs/WindowsHello.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
+</Project>

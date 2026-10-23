@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FingReader.WindowsHello</name>
+    </assembly>
+    <members>
+        <member name="T:FingReader.WindowsHello.HelloAuthentication">
+            <summary>Verifies the current Windows user. Does not store credentials or grant application roles.</summary>
+        </member>
+        <member name="M:FingReader.WindowsHello.HelloAuthentication.CheckAvailabilityAsync">
+            <summary>Checks configuration without displaying an authentication prompt.</summary>
+        </member>
+        <member name="M:FingReader.WindowsHello.HelloAuthentication.VerifyAsync(System.IntPtr,System.String,System.Threading.CancellationToken)">
+            <summary>Shows Windows Hello for the current process's active top-level window.</summary>
+            <remarks>Call from an interactive desktop app with a live, visible, foreground HWND.
+            Cancellation is best effort; a canceled request can never return IsVerified=true.
+            The host must invalidate results if its session or window closes or locks.</remarks>
+        </member>
+        <member name="T:FingReader.WindowsHello.HelloResult">
+            <summary>Outcome of a single verification. Only IsVerified permits access.</summary>
+        </member>
+        <member name="M:FingReader.WindowsHello.HelloResult.#ctor(FingReader.WindowsHello.HelloStatus,System.Int32)">
+            <summary>Outcome of a single verification. Only IsVerified permits access.</summary>
+        </member>
+    </members>
+</doc>

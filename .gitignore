@@ -1,8 +1,11 @@
 bin/
 obj/
 publish-x86/
+publish/
+outputs/
 native/*.dll
 *.zip
+!dist/WindowsHello/FingReader.WindowsHello-1.0.0.zip
 *.raw
 *.bmp
 *.png

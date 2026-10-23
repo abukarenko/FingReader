@@ -1,5 +1,16 @@
 # Futronic FS80H — сохранение и автоматическое распознавание
 
+## Библиотека Windows Hello для других приложений
+
+Добавлена **FingReader.WindowsHello 1.0.0** для C#/.NET 8+ и Windows 11: штатное подтверждение текущего пользователя отпечатком или PIN, обработка отмены/ошибок и передача фокуса системному окну.
+
+- [Готовый комплект: DLL, зависимости, пример, исходники и локальный NuGet](dist/WindowsHello/FingReader.WindowsHello-1.0.0.zip).
+- [Отдельная DLL](dist/WindowsHello/FingReader.WindowsHello.dll) (зависимости и условия подключения — в комплекте).
+- [Инструкция подключения и API](docs/WindowsHello.md).
+- [Исходники библиотеки](src/FingReader.WindowsHello), [пример с автоматической разблокировкой](samples/HelloUnlock), [проверки](docs/WindowsHello-Verification.md).
+
+Отпечатки для этого модуля регистрируются в Windows Hello. База FingReader не требуется и в репозиторий не включена.
+
 Windows Forms / C# / .NET 10, x86. Запуск: `Запустить.cmd` или `publish-x86\FS80H.exe`.
 
 ## Главное окно
